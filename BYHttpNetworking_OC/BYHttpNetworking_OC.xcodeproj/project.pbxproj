@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15D0293F7275EECFDA47BDCB /* libPods-BYHttpNetworking_OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE78A0DCEC30D45064F3A5F /* libPods-BYHttpNetworking_OC.a */; };
+		C23BCC4C20FE208F002ACC5B /* ManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C23BCC4B20FE208F002ACC5B /* ManagerTest.m */; };
+		C23BCC4F20FE25E2002ACC5B /* TestGetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C23BCC4E20FE25E2002ACC5B /* TestGetRequest.m */; };
+		C2ADFB5420E902FD00F8779C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ADFB5320E902FD00F8779C /* AppDelegate.m */; };
+		C2ADFB5720E902FD00F8779C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ADFB5620E902FD00F8779C /* ViewController.m */; };
+		C2ADFB5A20E902FD00F8779C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2ADFB5820E902FD00F8779C /* Main.storyboard */; };
+		C2ADFB5C20E902FE00F8779C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2ADFB5B20E902FE00F8779C /* Assets.xcassets */; };
+		C2ADFB5F20E902FE00F8779C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2ADFB5D20E902FE00F8779C /* LaunchScreen.storyboard */; };
+		C2ADFB6220E902FE00F8779C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ADFB6120E902FE00F8779C /* main.m */; };
+		C2ADFB6C20E902FE00F8779C /* BYHttpNetworking_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ADFB6B20E902FE00F8779C /* BYHttpNetworking_OCTests.m */; };
+		C2ADFB7720E902FE00F8779C /* BYHttpNetworking_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ADFB7620E902FE00F8779C /* BYHttpNetworking_OCUITests.m */; };
+		C2ADFB8D20E9158900F8779C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ADFB8B20E9158900F8779C /* Reachability.m */; };
+		C2ADFB9120E916A700F8779C /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ADFB9020E916A700F8779C /* BaseRequest.m */; };
+		C2ADFB9420E9176B00F8779C /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ADFB9320E9176B00F8779C /* NetworkManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2ADFB6820E902FE00F8779C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2ADFB4720E902FD00F8779C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2ADFB4E20E902FD00F8779C;
+			remoteInfo = BYHttpNetworking_OC;
+		};
+		C2ADFB7320E902FE00F8779C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2ADFB4720E902FD00F8779C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2ADFB4E20E902FD00F8779C;
+			remoteInfo = BYHttpNetworking_OC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E404D2F75368D851D12B7A5 /* Pods-BYHttpNetworking_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYHttpNetworking_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BYHttpNetworking_OC/Pods-BYHttpNetworking_OC.debug.xcconfig"; sourceTree = "<group>"; };
+		C23BCC4A20FE208F002ACC5B /* ManagerTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerTest.h; sourceTree = "<group>"; };
+		C23BCC4B20FE208F002ACC5B /* ManagerTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerTest.m; sourceTree = "<group>"; };
+		C23BCC4D20FE25E2002ACC5B /* TestGetRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGetRequest.h; sourceTree = "<group>"; };
+		C23BCC4E20FE25E2002ACC5B /* TestGetRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGetRequest.m; sourceTree = "<group>"; };
+		C2ADFB4F20E902FD00F8779C /* BYHttpNetworking_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BYHttpNetworking_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2ADFB5220E902FD00F8779C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2ADFB5320E902FD00F8779C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2ADFB5520E902FD00F8779C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2ADFB5620E902FD00F8779C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2ADFB5920E902FD00F8779C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2ADFB5B20E902FE00F8779C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2ADFB5E20E902FE00F8779C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2ADFB6020E902FE00F8779C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2ADFB6120E902FE00F8779C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2ADFB6720E902FE00F8779C /* BYHttpNetworking_OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BYHttpNetworking_OCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2ADFB6B20E902FE00F8779C /* BYHttpNetworking_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYHttpNetworking_OCTests.m; sourceTree = "<group>"; };
+		C2ADFB6D20E902FE00F8779C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2ADFB7220E902FE00F8779C /* BYHttpNetworking_OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BYHttpNetworking_OCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2ADFB7620E902FE00F8779C /* BYHttpNetworking_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYHttpNetworking_OCUITests.m; sourceTree = "<group>"; };
+		C2ADFB7820E902FE00F8779C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2ADFB8820E90BD500F8779C /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		C2ADFB8B20E9158900F8779C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C2ADFB8C20E9158900F8779C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C2ADFB8E20E915AF00F8779C /* RequestCallBack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestCallBack.h; sourceTree = "<group>"; };
+		C2ADFB8F20E916A700F8779C /* BaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		C2ADFB9020E916A700F8779C /* BaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		C2ADFB9220E9176B00F8779C /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		C2ADFB9320E9176B00F8779C /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		C2ADFB9520E917D200F8779C /* NetworkCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkCommon.h; sourceTree = "<group>"; };
+		C2ADFB9620E91E7300F8779C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DAE78A0DCEC30D45064F3A5F /* libPods-BYHttpNetworking_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BYHttpNetworking_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D16102AB56CC48EE17D6E7 /* Pods-BYHttpNetworking_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYHttpNetworking_OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-BYHttpNetworking_OC/Pods-BYHttpNetworking_OC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2ADFB4C20E902FD00F8779C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D0293F7275EECFDA47BDCB /* libPods-BYHttpNetworking_OC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2ADFB6420E902FE00F8779C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2ADFB6F20E902FE00F8779C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B7A39F04181ECC5417AF2AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAE78A0DCEC30D45064F3A5F /* libPods-BYHttpNetworking_OC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FD1C4A5429CDC4E9BD12C60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E404D2F75368D851D12B7A5 /* Pods-BYHttpNetworking_OC.debug.xcconfig */,
+				E8D16102AB56CC48EE17D6E7 /* Pods-BYHttpNetworking_OC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2ADFB4620E902FD00F8779C = {
+			isa = PBXGroup;
+			children = (
+				C2ADFB5120E902FD00F8779C /* BYHttpNetworking_OC */,
+				C2ADFB6A20E902FE00F8779C /* BYHttpNetworking_OCTests */,
+				C2ADFB7520E902FE00F8779C /* BYHttpNetworking_OCUITests */,
+				C2ADFB5020E902FD00F8779C /* Products */,
+				7FD1C4A5429CDC4E9BD12C60 /* Pods */,
+				5B7A39F04181ECC5417AF2AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2ADFB5020E902FD00F8779C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2ADFB4F20E902FD00F8779C /* BYHttpNetworking_OC.app */,
+				C2ADFB6720E902FE00F8779C /* BYHttpNetworking_OCTests.xctest */,
+				C2ADFB7220E902FE00F8779C /* BYHttpNetworking_OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2ADFB5120E902FD00F8779C /* BYHttpNetworking_OC */ = {
+			isa = PBXGroup;
+			children = (
+				C2ADFB5220E902FD00F8779C /* AppDelegate.h */,
+				C2ADFB5320E902FD00F8779C /* AppDelegate.m */,
+				C2ADFB5520E902FD00F8779C /* ViewController.h */,
+				C2ADFB5620E902FD00F8779C /* ViewController.m */,
+				C2ADFB9620E91E7300F8779C /* PrefixHeader.pch */,
+				C2ADFB9720E9225000F8779C /* ManagerRequestTest */,
+				C2ADFB9820E9225000F8779C /* BaseRequestTest */,
+				C2ADFB8720E90BD500F8779C /* Common */,
+				C2ADFB8520E90B1900F8779C /* BaseReuqestAPI */,
+				C2ADFB8420E90B1900F8779C /* NetworkManager */,
+				C2ADFB5820E902FD00F8779C /* Main.storyboard */,
+				C2ADFB5B20E902FE00F8779C /* Assets.xcassets */,
+				C2ADFB5D20E902FE00F8779C /* LaunchScreen.storyboard */,
+				C2ADFB6020E902FE00F8779C /* Info.plist */,
+				C2ADFB6120E902FE00F8779C /* main.m */,
+			);
+			path = BYHttpNetworking_OC;
+			sourceTree = "<group>";
+		};
+		C2ADFB6A20E902FE00F8779C /* BYHttpNetworking_OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2ADFB6B20E902FE00F8779C /* BYHttpNetworking_OCTests.m */,
+				C2ADFB6D20E902FE00F8779C /* Info.plist */,
+			);
+			path = BYHttpNetworking_OCTests;
+			sourceTree = "<group>";
+		};
+		C2ADFB7520E902FE00F8779C /* BYHttpNetworking_OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2ADFB7620E902FE00F8779C /* BYHttpNetworking_OCUITests.m */,
+				C2ADFB7820E902FE00F8779C /* Info.plist */,
+			);
+			path = BYHttpNetworking_OCUITests;
+			sourceTree = "<group>";
+		};
+		C2ADFB8420E90B1900F8779C /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				C2ADFB9220E9176B00F8779C /* NetworkManager.h */,
+				C2ADFB9320E9176B00F8779C /* NetworkManager.m */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		C2ADFB8520E90B1900F8779C /* BaseReuqestAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C2ADFB8E20E915AF00F8779C /* RequestCallBack.h */,
+				C2ADFB8F20E916A700F8779C /* BaseRequest.h */,
+				C2ADFB9020E916A700F8779C /* BaseRequest.m */,
+			);
+			path = BaseReuqestAPI;
+			sourceTree = "<group>";
+		};
+		C2ADFB8720E90BD500F8779C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C2ADFB8820E90BD500F8779C /* Macro.h */,
+				C2ADFB9520E917D200F8779C /* NetworkCommon.h */,
+				C2ADFB8C20E9158900F8779C /* Reachability.h */,
+				C2ADFB8B20E9158900F8779C /* Reachability.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C2ADFB9720E9225000F8779C /* ManagerRequestTest */ = {
+			isa = PBXGroup;
+			children = (
+				C23BCC4A20FE208F002ACC5B /* ManagerTest.h */,
+				C23BCC4B20FE208F002ACC5B /* ManagerTest.m */,
+			);
+			path = ManagerRequestTest;
+			sourceTree = "<group>";
+		};
+		C2ADFB9820E9225000F8779C /* BaseRequestTest */ = {
+			isa = PBXGroup;
+			children = (
+				C23BCC4D20FE25E2002ACC5B /* TestGetRequest.h */,
+				C23BCC4E20FE25E2002ACC5B /* TestGetRequest.m */,
+			);
+			path = BaseRequestTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2ADFB4E20E902FD00F8779C /* BYHttpNetworking_OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2ADFB7B20E902FE00F8779C /* Build configuration list for PBXNativeTarget "BYHttpNetworking_OC" */;
+			buildPhases = (
+				6B4A0D504BEFB164DF5008BE /* [CP] Check Pods Manifest.lock */,
+				C2ADFB4B20E902FD00F8779C /* Sources */,
+				C2ADFB4C20E902FD00F8779C /* Frameworks */,
+				C2ADFB4D20E902FD00F8779C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BYHttpNetworking_OC;
+			productName = BYHttpNetworking_OC;
+			productReference = C2ADFB4F20E902FD00F8779C /* BYHttpNetworking_OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2ADFB6620E902FE00F8779C /* BYHttpNetworking_OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2ADFB7E20E902FE00F8779C /* Build configuration list for PBXNativeTarget "BYHttpNetworking_OCTests" */;
+			buildPhases = (
+				C2ADFB6320E902FE00F8779C /* Sources */,
+				C2ADFB6420E902FE00F8779C /* Frameworks */,
+				C2ADFB6520E902FE00F8779C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2ADFB6920E902FE00F8779C /* PBXTargetDependency */,
+			);
+			name = BYHttpNetworking_OCTests;
+			productName = BYHttpNetworking_OCTests;
+			productReference = C2ADFB6720E902FE00F8779C /* BYHttpNetworking_OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2ADFB7120E902FE00F8779C /* BYHttpNetworking_OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2ADFB8120E902FE00F8779C /* Build configuration list for PBXNativeTarget "BYHttpNetworking_OCUITests" */;
+			buildPhases = (
+				C2ADFB6E20E902FE00F8779C /* Sources */,
+				C2ADFB6F20E902FE00F8779C /* Frameworks */,
+				C2ADFB7020E902FE00F8779C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2ADFB7420E902FE00F8779C /* PBXTargetDependency */,
+			);
+			name = BYHttpNetworking_OCUITests;
+			productName = BYHttpNetworking_OCUITests;
+			productReference = C2ADFB7220E902FE00F8779C /* BYHttpNetworking_OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2ADFB4720E902FD00F8779C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = satelens;
+				TargetAttributes = {
+					C2ADFB4E20E902FD00F8779C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					C2ADFB6620E902FE00F8779C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C2ADFB4E20E902FD00F8779C;
+					};
+					C2ADFB7120E902FE00F8779C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C2ADFB4E20E902FD00F8779C;
+					};
+				};
+			};
+			buildConfigurationList = C2ADFB4A20E902FD00F8779C /* Build configuration list for PBXProject "BYHttpNetworking_OC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2ADFB4620E902FD00F8779C;
+			productRefGroup = C2ADFB5020E902FD00F8779C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2ADFB4E20E902FD00F8779C /* BYHttpNetworking_OC */,
+				C2ADFB6620E902FE00F8779C /* BYHttpNetworking_OCTests */,
+				C2ADFB7120E902FE00F8779C /* BYHttpNetworking_OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2ADFB4D20E902FD00F8779C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2ADFB5F20E902FE00F8779C /* LaunchScreen.storyboard in Resources */,
+				C2ADFB5C20E902FE00F8779C /* Assets.xcassets in Resources */,
+				C2ADFB5A20E902FD00F8779C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2ADFB6520E902FE00F8779C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2ADFB7020E902FE00F8779C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B4A0D504BEFB164DF5008BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BYHttpNetworking_OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2ADFB4B20E902FD00F8779C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2ADFB5720E902FD00F8779C /* ViewController.m in Sources */,
+				C2ADFB6220E902FE00F8779C /* main.m in Sources */,
+				C23BCC4C20FE208F002ACC5B /* ManagerTest.m in Sources */,
+				C2ADFB9120E916A700F8779C /* BaseRequest.m in Sources */,
+				C23BCC4F20FE25E2002ACC5B /* TestGetRequest.m in Sources */,
+				C2ADFB8D20E9158900F8779C /* Reachability.m in Sources */,
+				C2ADFB9420E9176B00F8779C /* NetworkManager.m in Sources */,
+				C2ADFB5420E902FD00F8779C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2ADFB6320E902FE00F8779C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2ADFB6C20E902FE00F8779C /* BYHttpNetworking_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2ADFB6E20E902FE00F8779C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2ADFB7720E902FE00F8779C /* BYHttpNetworking_OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2ADFB6920E902FE00F8779C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2ADFB4E20E902FD00F8779C /* BYHttpNetworking_OC */;
+			targetProxy = C2ADFB6820E902FE00F8779C /* PBXContainerItemProxy */;
+		};
+		C2ADFB7420E902FE00F8779C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2ADFB4E20E902FD00F8779C /* BYHttpNetworking_OC */;
+			targetProxy = C2ADFB7320E902FE00F8779C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2ADFB5820E902FD00F8779C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2ADFB5920E902FD00F8779C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2ADFB5D20E902FE00F8779C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2ADFB5E20E902FE00F8779C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2ADFB7920E902FE00F8779C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2ADFB7A20E902FE00F8779C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2ADFB7C20E902FE00F8779C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E404D2F75368D851D12B7A5 /* Pods-BYHttpNetworking_OC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BUHZRM879V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BYHttpNetworking_OC/PrefixHeader.pch;
+				INFOPLIST_FILE = BYHttpNetworking_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satelens.BYHttpNetworking-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2ADFB7D20E902FE00F8779C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D16102AB56CC48EE17D6E7 /* Pods-BYHttpNetworking_OC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BUHZRM879V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BYHttpNetworking_OC/PrefixHeader.pch;
+				INFOPLIST_FILE = BYHttpNetworking_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satelens.BYHttpNetworking-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2ADFB7F20E902FE00F8779C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BUHZRM879V;
+				INFOPLIST_FILE = BYHttpNetworking_OCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satelens.BYHttpNetworking-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BYHttpNetworking_OC.app/BYHttpNetworking_OC";
+			};
+			name = Debug;
+		};
+		C2ADFB8020E902FE00F8779C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BUHZRM879V;
+				INFOPLIST_FILE = BYHttpNetworking_OCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satelens.BYHttpNetworking-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BYHttpNetworking_OC.app/BYHttpNetworking_OC";
+			};
+			name = Release;
+		};
+		C2ADFB8220E902FE00F8779C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BUHZRM879V;
+				INFOPLIST_FILE = BYHttpNetworking_OCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satelens.BYHttpNetworking-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BYHttpNetworking_OC;
+			};
+			name = Debug;
+		};
+		C2ADFB8320E902FE00F8779C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BUHZRM879V;
+				INFOPLIST_FILE = BYHttpNetworking_OCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satelens.BYHttpNetworking-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BYHttpNetworking_OC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2ADFB4A20E902FD00F8779C /* Build configuration list for PBXProject "BYHttpNetworking_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2ADFB7920E902FE00F8779C /* Debug */,
+				C2ADFB7A20E902FE00F8779C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2ADFB7B20E902FE00F8779C /* Build configuration list for PBXNativeTarget "BYHttpNetworking_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2ADFB7C20E902FE00F8779C /* Debug */,
+				C2ADFB7D20E902FE00F8779C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2ADFB7E20E902FE00F8779C /* Build configuration list for PBXNativeTarget "BYHttpNetworking_OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2ADFB7F20E902FE00F8779C /* Debug */,
+				C2ADFB8020E902FE00F8779C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2ADFB8120E902FE00F8779C /* Build configuration list for PBXNativeTarget "BYHttpNetworking_OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2ADFB8220E902FE00F8779C /* Debug */,
+				C2ADFB8320E902FE00F8779C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2ADFB4720E902FD00F8779C /* Project object */;
+}
